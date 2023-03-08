@@ -18,57 +18,79 @@
         {
             "creador": "misheru",
             "item": "cosa",
-            "nombre": "cosa1"
+            "nombre": "cosa1",
+            "cantidad": 40,
+            "categoria": "ficción"
         },
         {
             "creador": "misheru",
             "item": "cosa",
-            "nombre": "cosa1"
+            "nombre": "cosa1",
+            "cantidad": 40,
+            "categoria": "ficción"
         },
         {
             "creador": "misheru",
             "item": "cosa",
-            "nombre": "cosa1"
+            "nombre": "cosa1",
+            "cantidad": 40,
+            "categoria": "ficción"
         },
         {
             "creador": "misheru",
             "item": "cosa",
-            "nombre": "cosa1"
+            "nombre": "cosa1",
+            "cantidad": 40,
+            "categoria": "ficción"
         },
         {
             "creador": "misheru",
             "item": "cosa",
-            "nombre": "cosa1"
+            "nombre": "cosa1",
+            "cantidad": 40,
+            "categoria": "ficción"
         },
         {
             "creador": "misheru2",
             "item": "cosa",
-            "nombre": "cosa2"
+            "nombre": "cosa2",
+            "cantidad": 40,
+            "categoria": "ficción"
         },
         {
             "creador": "misheru2",
             "item": "cosa",
-            "nombre": "cosa2"
+            "nombre": "cosa2",
+            "cantidad": 40,
+            "categoria": "ficción"
         },
         {
             "creador": "misheru2",
             "item": "cosa",
-            "nombre": "cosa2"
+            "nombre": "cosa2",
+            "cantidad": 40,
+            "categoria": "ficción"
         },
         {
             "creador": "misheru2",
             "item": "cosa",
-            "nombre": "cosa2"
+            "nombre": "cosa2",
+            "cantidad": 40,
+            "categoria": "ficción"
         },
         {
             "creador": "misheru2",
             "item": "cosa",
-            "nombre": "cosa2"
+            "nombre": "cosa2",
+            "cantidad": 40,
+            "categoria": "ficción"
         },
         {
             "creador": "misheru2",
             "item": "cosa",
-            "nombre": "cosa2"
+            "nombre": "cosa2",
+            "cantidad": 40,
+            "categoria": "ficción"
         }
     ]
 }
