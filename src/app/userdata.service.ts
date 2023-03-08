@@ -18,7 +18,7 @@ export class UserdataService {
     return localStorage.getItem('userName');
   }
   close() {
-    localStorage.clear()
+    localStorage.removeItem('userName');
   }
   getAllData() {
     return this.http.get<DatosTabla[]>(this.url + this.getUserName())
