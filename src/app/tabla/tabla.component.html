@@ -1,0 +1,50 @@
+<div class="cuerpo">
+
+    <mat-toolbar color="primary">
+        <span *ngIf="logueado()">Bienvenido {{nombreUser()}}</span>
+        <span class="example-spacer"></span>
+        <button mat-raised-button color="basic" (click)="cerrarSesion()">Cerrar sesión</button>
+    </mat-toolbar>
+    <ng-template #noHay>
+        <div class="centrar">
+            <h1>No hay datos que mostrar</h1>
+        </div>
+    </ng-template>
+
+    <div class="tabla" *ngIf="dataSource.data.length>1; else noHay">
+        <mat-form-field>
+            <mat-label>Filtrar</mat-label>
+            <input matInput class="size" (keyup)="applyFilter($event)" placeholder="" #input>
+        </mat-form-field>
+
+        <table mat-table id="table" [dataSource]="dataSource">
+
+            <ng-container matColumnDef="item">
+                <mat-header-cell *matHeaderCellDef> Item </mat-header-cell>
+                <mat-cell *matCellDef="let element"> {{element.item}} </mat-cell>
+            </ng-container>
+
+            <ng-container matColumnDef="cantidad">
+                <mat-header-cell *matHeaderCellDef> Cantidad </mat-header-cell>
+                <mat-cell *matCellDef="let element"> {{element.cantidad}} </mat-cell>
+            </ng-container>
+
+            <ng-container matColumnDef="categoria">
+                <mat-header-cell *matHeaderCellDef> Categoría </mat-header-cell>
+                <mat-cell *matCellDef="let element"> {{element.categoria}} </mat-cell>
+            </ng-container>
+
+            <ng-container matColumnDef="nombre">
+                <mat-header-cell *matHeaderCellDef> Nombre </mat-header-cell>
+                <mat-cell *matCellDef="let element"> {{element.nombre}} </mat-cell>
+            </ng-container>
+
+
+
+            <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+            <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+        </table>
+        <mat-paginator [length]="datosUsuario().length" [pageSize]="4" [pageSizeOptions]="[2, 4, 5, 8,10]"
+            aria-label="Select page of users"></mat-paginator>
+    </div>
+</div>

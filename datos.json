@@ -1,0 +1,74 @@
+{
+    "usuarios": [
+        {
+            "nombreUsuario": "misheru",
+            "nombre": "Michelle",
+            "apellido": "Masias de Navas",
+            "edad": 23
+        }
+    ],
+    "informacion": [
+        {
+            "creador": "misheru",
+            "item": "libro",
+            "nombre": "el quijote",
+            "cantidad": 40,
+            "categoria": "ficción"
+        },
+        {
+            "creador": "misheru",
+            "item": "cosa",
+            "nombre": "cosa1"
+        },
+        {
+            "creador": "misheru",
+            "item": "cosa",
+            "nombre": "cosa1"
+        },
+        {
+            "creador": "misheru",
+            "item": "cosa",
+            "nombre": "cosa1"
+        },
+        {
+            "creador": "misheru",
+            "item": "cosa",
+            "nombre": "cosa1"
+        },
+        {
+            "creador": "misheru",
+            "item": "cosa",
+            "nombre": "cosa1"
+        },
+        {
+            "creador": "misheru2",
+            "item": "cosa",
+            "nombre": "cosa2"
+        },
+        {
+            "creador": "misheru2",
+            "item": "cosa",
+            "nombre": "cosa2"
+        },
+        {
+            "creador": "misheru2",
+            "item": "cosa",
+            "nombre": "cosa2"
+        },
+        {
+            "creador": "misheru2",
+            "item": "cosa",
+            "nombre": "cosa2"
+        },
+        {
+            "creador": "misheru2",
+            "item": "cosa",
+            "nombre": "cosa2"
+        },
+        {
+            "creador": "misheru2",
+            "item": "cosa",
+            "nombre": "cosa2"
+        }
+    ]
+}

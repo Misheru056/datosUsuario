@@ -1,0 +1,29 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+table,
+mat-paginator {
+  width: 100%;
+  background: #fac6ea;
+}
+
+.mat-mdc-form-field,
+::ng-deep.mat-form-field {
+  margin-top: 2%;
+  font-size: 14px;
+  width: 100%;
+}
+
+td,
+th {
+  width: 25%;
+}
+
+.centrar {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
